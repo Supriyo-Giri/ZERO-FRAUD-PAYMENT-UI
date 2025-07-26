@@ -1,0 +1,14 @@
+{
+  "name": "secure-event-portal",
+  "version": "1.0.0",
+  "description": "Secure event registration portal with payment verification",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "setup": "bash scripts/setup.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
