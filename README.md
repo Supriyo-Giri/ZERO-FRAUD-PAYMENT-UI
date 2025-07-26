@@ -49,7 +49,7 @@ A secure backend system for event registration with payment verification capabil
 ## Environment Variables
 
 - `PORT` - Server port (default: 5000)
-- `MONGODB_URI` - MongoDB connection string
+- `MONGO_URI` - MongoDB connection string
 - `JWT_SECRET` - Secret for JWT signing
 
 ## Security
